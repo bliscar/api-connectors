@@ -1,11 +1,17 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
+    "name": "bliscar/api-connectors",
     "description": "",
     "keywords": [
         "swagger",
         "php",
         "sdk",
         "api"
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/bliscar/api-connectors.git"
+        }
     ],
     "homepage": "http://swagger.io",
     "license": "Apache v2",
@@ -19,7 +25,8 @@
         "php": ">=5.4",
         "ext-curl": "*",
         "ext-json": "*",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "bliscar/api-connectors": "*@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.8",
